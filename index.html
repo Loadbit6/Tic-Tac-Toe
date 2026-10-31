@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic Tac Toe</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Serif&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div id="title">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
         <h1>Tic Tac Toe</h1>
-    </div>
-    <div id="board">
-        <div class="square" id="square0"></div>
-        <div class="square" id="square1"></div>
-        <div class="square" id="square2"></div>
-        <div class="square" id="square3"></div>
-        <div class="square" id="square4"></div>
-        <div class="square" id="square5"></div>
-        <div class="square" id="square6"></div>
-        <div class="square" id="square7"></div>
-        <div class="square" id="square8"></div>
-    </div>  
-    <div id="endGame">
-        <input type="button" value="Restart" id="restartButton" onclick="restartButton()"/>
-    </div>
-    <script src="game.js"></script>
-</body>
-</html>
+        <br>
+        <div id="contain">
+        <div id="game-board">
+            <div data-cell-index="0" class="game-cell"></div>
+            <div data-cell-index="1" class="game-cell"></div>
+            <div data-cell-index="2" class="game-cell"></div>
+            <div data-cell-index="3" class="game-cell"></div>
+            <div data-cell-index="4" class="game-cell"></div>
+            <div data-cell-index="5" class="game-cell"></div>
+            <div data-cell-index="6" class="game-cell"></div>
+            <div data-cell-index="7" class="game-cell"></div>
+            <div data-cell-index="8" class="game-cell"></div>
+        </div>
+            <div id="container">
+                <div>Next Player</div>
+                <div id="Cplayer" class="playertracker">O</div>
+            </div>
+        </div>
+        <button id="game-restart-button">Restart Game</button>
+        <script src="tictactoe.js"></script>
+    </body>
+</html>                                                                                                              
