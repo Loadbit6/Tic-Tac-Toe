@@ -1,3 +1,6 @@
-This is a online web game of tick tac toe, i watched a tutorial, made it, then used what i learned to rebuild it completely from scratch
+This is an online web game of tic-tac-toe. I watched a tutorial, made it, then used what I learned to rebuild it completely from scratch using html, css, and javascript
+The site has a tic-tac-toe game board, a player turn tracker, a reset button, and a visually appealing design look 
 
-How To Ru
+How to run
+go to https://loadbit6.github.io/Tic-Tac-Toe/
+Play tic-tac-toe with another person!
