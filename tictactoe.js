@@ -76,6 +76,3 @@ function restartGame() {
         cell.classList.remove("winning-game-cell");   
     }   
 }                         
-                   
-//add a tracker of whoses turn it is
-//make first player always O always     
